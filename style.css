@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border:2px solid black;
+    text-align: center;
+    
+}
+
+td,th{
+    padding: 10px 15px;
+    font-size: 25px;   
+}
+
+th{
+    font-weight: bolder;
+    font-size: 30px;
+}
+table{
+    opacity: 0.9;
+}
+
